@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.hero-section {
+    background: #000;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-item {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.nav-item:hover {
+    opacity: 1;
+}
+
+.apple-btn {
+    background: #0071e3;
+    border-radius: 980px;
+    transition: all 0.3s;
+}
+
+.apple-btn:hover {
+    background: #0077ed;
+}
+
+.caption {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+}
+
+.hero-headline {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.07;
+    letter-spacing: -0.005em;
+}
+
+.feature-section {
+    background: #fbfbfd;
+}
+
+.sticky-nav {
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Animation classes */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.parallax {
+    transition: transform 0.5s ease-out;
+}
